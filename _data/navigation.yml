@@ -1,0 +1,29 @@
+main:
+  - title: "Docs"
+    url: /docs/
+  - title: "Blog"
+    url: /posts/
+  - title: "Me"
+    url: /about/
+
+sidebar_ml:
+  - title: "ML"
+    children:
+      - title: "Optimizers"
+        url: "url1"
+      - title: "Gradient Descent"
+        url: "url1"
+      - title: "child3"
+        url: "url1"
+  - title: "NLP"
+    children:
+      - title: "Tokenization"
+        url: "/nlp/tokenization"
+      - title: "Transformers"
+        url: "/nlp/transformer"
+      - title: "Efficient Transformers"
+        url: "/nlp/efficient-transformers"
+      - title: "Papers"
+        url: "/nlp/papers"
+      - title: "Tasks"
+        url: "/nlp/papers"

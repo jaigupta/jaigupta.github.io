@@ -1,0 +1,14 @@
+---
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+body .page__content {
+  font-size: 0.7em;
+}
+
+/* type scale */
