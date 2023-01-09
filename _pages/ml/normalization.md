@@ -1,3 +1,8 @@
+---
+layout: single
+published: false
+categories: ["ml2"]
+---
 # Normaliazation
 
 All all the cases, we assume two types of inputs:

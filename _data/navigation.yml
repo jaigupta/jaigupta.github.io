@@ -26,4 +26,6 @@ sidebar_ml:
       - title: "Papers"
         url: "/nlp/papers"
       - title: "Tasks"
-        url: "/nlp/papers"
+        url: "/nlp/tasks"
+      - title: "Conferences"
+        url: "/nlp/conferences"
