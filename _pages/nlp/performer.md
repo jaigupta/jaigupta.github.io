@@ -1,5 +1,6 @@
 ---
 categories: ["nlp"]
+published: false
 ---
 
 Given that the attention component of Transformers is really expensive to evaluate due to their $$\mathcal{O}(l^2d)$$ complexity, this is yet another attempt to make it faster.
