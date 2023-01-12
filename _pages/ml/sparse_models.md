@@ -1,4 +1,7 @@
 ---
+layout: single
+published: false
+categories: ["ml2"]
 ---
 
 ## Sparsely Gated: Mixture of Experts

@@ -1,3 +1,8 @@
+---
+layout: single
+published: false
+categories: ["ml2"]
+---
 # Distillation
 
 ## Teacher Student

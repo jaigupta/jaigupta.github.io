@@ -1,7 +1,7 @@
 ---
 layout: single
 published: false
-title: Long Sequence Transformers
+title: Efficient Transformers
 categories: ["nlp"]
 ---
 
@@ -16,7 +16,7 @@ Limits the set of tokens each token attends to.
 - [Reformer](https://arxiv.org/abs/2001.04451) (Kitaev el al., 2020)
   - Locality sensitive hashing to find the nearest neighbors of query and perform attention only with them. $$\mathcal{O}(n\log{n})$$ attention cost.
   - Reversible layers to skip storing output of attention values and save memory.
-      - Base on [RevNet](https://arxiv.org/abs/1707.04585)
+      - Based on [RevNet](https://arxiv.org/abs/1707.04585)
       - $$(x_1, x_1) \rightarrow (y_1, y_2)$$
       - $$Y_1 = X_1 + Attention(X_2)$$ and $$Y_2 = X_2 + FeedForward(Y_1)$$
       - Backprop: $$X_2 = Y_2 - FeedForward(Y_1)$$ and $$X_1 = Y_1 - Attention(X_2)$$

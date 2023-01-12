@@ -1,6 +1,7 @@
 ---
 title: Transformers for Text
 categories: ["nlp"]
+published: false
 ---
 
 ## Attention is all you need
